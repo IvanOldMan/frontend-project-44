@@ -3,11 +3,12 @@
   "version": "1.0.0",
   "description": "[![Actions Status](https://github.com/IvanOldMan/frontend-project-44/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/IvanOldMan/frontend-project-44/actions)",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
-    "type": "module",
+    "type": "git",
     "url": "git+https://github.com/IvanOldMan/frontend-project-44.git"
   },
   "author": "",
@@ -18,5 +19,11 @@
   "homepage": "https://github.com/IvanOldMan/frontend-project-44#readme",
   "bin": {
     "brain-games": "bin/brain-games.js"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.23.9",
+    "@babel/core": "^7.24.0",
+    "@babel/preset-env": "^7.24.0",
+    "readline-sync": "^1.4.10"
   }
 }
