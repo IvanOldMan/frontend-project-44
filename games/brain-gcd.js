@@ -28,7 +28,7 @@ const getGreatestCommonDivisor = (firstValley, secondValley) => {
 
 welcomeMessage();
 nameRequest();
-console.log(typeOfAnswer.calc);
+console.log(typeOfAnswer.gcd);
 let isAnswersCorrect = true;
 
 for (let i = 0; i < 3 && isAnswersCorrect; i++) {
