@@ -1,4 +1,6 @@
 #!/usr/bin/env node
-import { nameRequest } from '../src/cli.js';
 
+import { welcomeMessage, nameRequest } from '../src/cli.js';
+
+welcomeMessage();
 nameRequest();
