@@ -1,12 +1,13 @@
 #!/usr/bin/env node
 
+// eslint-disable-next-line import/no-extraneous-dependencies
 import readlineSync from 'readline-sync';
 import { userName } from './cli.js';
 
 function getRandomInt(min, max) {
-  min = Math.ceil(min);
-  max = Math.floor(max);
-  return Math.floor(Math.random() * (max - min + 1)) + min;
+  const bottom = Math.ceil(min);
+  const top = Math.floor(max);
+  return Math.floor(Math.random() * (top - bottom + 1)) + bottom;
 }
 const typeOfAnswer = {
   even: 'Answer "yes" if the number is even, otherwise answer "no".',

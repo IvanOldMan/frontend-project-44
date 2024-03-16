@@ -13,7 +13,7 @@ console.log(typeOfAnswer.calc);
 const operands = ['+', '-', '*'];
 let isAnswersCorrect = true;
 
-for (let i = 0; i < 3 && isAnswersCorrect; i++) {
+for (let i = 0; i < 3 && isAnswersCorrect; i += 1) {
   const firstValley = getRandomInt(0, 20);
   const secondValley = getRandomInt(0, 20);
   const currentOperand = operands[getRandomInt(0, 2)];

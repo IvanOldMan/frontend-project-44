@@ -1,6 +1,7 @@
 // eslint-disable-next-line import/no-extraneous-dependencies
 import readlineSync from 'readline-sync';
 
+// eslint-disable-next-line import/no-mutable-exports
 let userName = '';
 const welcomeMessage = () => {
   console.log('Welcome to the Brain Games!');

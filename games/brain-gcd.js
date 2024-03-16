@@ -31,7 +31,7 @@ nameRequest();
 console.log(typeOfAnswer.gcd);
 let isAnswersCorrect = true;
 
-for (let i = 0; i < 3 && isAnswersCorrect; i++) {
+for (let i = 0; i < 3 && isAnswersCorrect; i += 1) {
   const firstValley = getRandomInt(1, 100);
   const secondValley = getRandomInt(1, 100);
 

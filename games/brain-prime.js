@@ -12,7 +12,7 @@ const isPrimeNumber = (testNumber) => {
     result = 'no';
   }
 
-  for (let i = 2; i <= Math.sqrt(testNumber); i++) {
+  for (let i = 2; i <= Math.sqrt(testNumber); i += 1) {
     if (testNumber % i === 0) {
       result = 'no';
       break;
@@ -26,7 +26,7 @@ nameRequest();
 console.log(typeOfAnswer.prime);
 let isAnswersCorrect = true;
 
-for (let i = 0; i < 3 && isAnswersCorrect; i++) {
+for (let i = 0; i < 3 && isAnswersCorrect; i += 1) {
   const testNumber = getRandomInt(0, 100);
   const correctAnswer = isPrimeNumber(testNumber);
 
