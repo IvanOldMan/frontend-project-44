@@ -18,7 +18,6 @@ const isPrimeNumber = (testNumber) => {
       break;
     }
   }
-
   return result;
 };
 
@@ -28,7 +27,7 @@ console.log(typeOfAnswer.prime);
 let isAnswersCorrect = true;
 
 for (let i = 0; i < 3 && isAnswersCorrect; i++) {
-  const testNumber = getRandomInt(63, 63);
+  const testNumber = getRandomInt(0, 100);
   const correctAnswer = isPrimeNumber(testNumber);
 
   expression(`${testNumber}`);
