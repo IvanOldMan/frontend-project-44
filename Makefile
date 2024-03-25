@@ -7,12 +7,12 @@ publish:
 make lint:
 	npx eslint .
 brain-even:
-	node game/brain-even.js
+	node bin/brain-even.js
 brain-calc:
-	node game/brain-calc.js
+	node bin/brain-calc.js
 brain-jcd:
-	node games/brain-gcd.js
+	node bin/brain-gcd.js
 brain-progression:
-	node games/brain-progression.js
+	node bin/brain-progression.js
 brain-prime:
-	node games/brain-prime.js
+	node bin/brain-prime.js

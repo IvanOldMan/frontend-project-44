@@ -1,15 +1,10 @@
 // eslint-disable-next-line import/no-extraneous-dependencies
 import readlineSync from 'readline-sync';
 
-// eslint-disable-next-line import/no-mutable-exports
-let userName = '';
 const welcomeMessage = () => {
   console.log('Welcome to the Brain Games!');
-};
-
-const nameRequest = () => {
-  userName = readlineSync.question('May I have your name? ').toString();
+  const userName = readlineSync.question('May I have your name? ');
   console.log(`Hello, ${userName}!`);
 };
 
-export { userName, welcomeMessage, nameRequest };
+export default welcomeMessage;
